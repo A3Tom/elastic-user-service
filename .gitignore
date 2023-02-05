@@ -1,0 +1,10 @@
+﻿**/obj/*
+**/bin/*
+**/.vs/*
+**/*.user
+**/*.[Dd]evelopment.[Jj]son
+
+**/node_modules
+**/dist
+**/dist-ssr
+**/*.local
