@@ -1,0 +1,7 @@
+﻿{
+  "IsEncrypted": false,
+  "UserService": {
+    "ElasticSearchNodeUrl": "http://localhost:9200",
+    "ElasticSearchDefaultIndex": "users"
+  }
+}
