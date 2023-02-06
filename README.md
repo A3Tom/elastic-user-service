@@ -9,7 +9,7 @@ A small full stack app utilizing ElasticSearch to search through a list of users
 
 ## Tech Stack
 
- - ElasticSearch & Kabana
+ - ElasticSearch & Kabana running in Docker
  - .Net 6 using Mediator 
  - React & Vite
 
@@ -18,7 +18,7 @@ A small full stack app utilizing ElasticSearch to search through a list of users
  - Open a CLI in the root directory
  - Run `docker compose up -d` (-d is optional but it retains your terminal)
  - Run `inflate-elastic-data.bat` This will populate the ElasticSearch instance with some test data
- - Either run `dotnet watch ./src/UserService/UserService.Api.csproj` or open `./src/UserService/UserService.sln` in Visual Studio
+ - Run `dotnet watch --project src\UserService\UserService.Api\UserService.Api.csproj` (or open `src\UserService\UserService.sln` in Visual Studio)
  - Navigate to `./src/react-user-search` and run `npm i` then `npm run dev`
  - Boom. Ye should now be looking at the single most visually unappealing website since folk could make Piczo sites
 
