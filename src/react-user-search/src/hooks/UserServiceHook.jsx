@@ -5,7 +5,7 @@ function searchUsers(searchTerm, options) {
 	const [error, setError] = useState(null);
 	const [loading, setLoading] = useState(false);
 
-	const baseUrl = "https://localhost:7033/api/Users/searchUsers";
+	const baseUrl = "https://localhost:5001/api/Users/searchUsers";
 	const url = `${baseUrl}?searchTerm=${searchTerm}`;
 
 	const callApi = async () => {
